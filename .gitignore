@@ -1,0 +1,21 @@
+# Ignore model weights and checkpoints
+checkpoints/
+output/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Ignore virtual environments and caches
+.venv/
+env/
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignore large data files (GitHub has a 100MB limit per file)
+dataset/*.jsonl
+dataset/*.json
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
